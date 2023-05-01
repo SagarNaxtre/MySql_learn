@@ -1,0 +1,18 @@
+{
+    "prouctImage": {
+        "key_name": "prouctImage",
+        "nick_name": "Product image",
+        "path": "/uploads/products/",
+        "type": "file",
+        "prefix": "ns_product_",
+        "supportExt": [
+            "jpg",
+            "jpeg",
+            "png"
+        ],
+        "allowMultiple": true,
+        "maxCount": 5,
+        "storage": "S3",
+        "dir": "products"
+    }
+}

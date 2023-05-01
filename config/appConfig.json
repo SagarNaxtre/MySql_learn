@@ -1,0 +1,23 @@
+{
+    "mysql": {
+        "host": "nanoshel.cuzlniri5zxa.ap-south-1.rds.amazonaws.com",
+        "port": "3306",
+        "username": "root",
+        "password": "poiuytrewq",
+        "database": "nanoshel_air_nanoshel",
+        "timeout": 30000
+    },
+    "AWS": {
+        "region": "ap-south-1",
+        "key": "aws-key",
+        "secret": "aws-secret"
+    },
+    "payment_gateway": {
+        "stripe": {
+            "secret_key": "sk_live_XeMKPPtgDKgSFIkA3pfgr5L1"
+        },
+        "stripe_test": {
+            "secret_key": "sk_test_U8V807LfjQluEg4EYngXhVb0"
+        }
+    }
+}
